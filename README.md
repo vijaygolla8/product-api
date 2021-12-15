@@ -16,7 +16,7 @@ npm test
 ### To Run
 node src/index.js \
 or \
-npm start \
+npm start
 
 then open a browser and go to localhost:8080/products/11111
 
