@@ -1,0 +1,34 @@
+{
+  "name": "product-api",
+  "version": "1.0.0",
+  "description": "Product Api",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "{repo}"
+  },
+  "keywords": [
+    "product"
+  ],
+  "author": "{name}",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.5.0"
+  },
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "supertest": "^6.1.6"
+  }
+}
