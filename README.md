@@ -14,10 +14,10 @@ npm install
 npm test
 
 ### To Run
-node src/index.js
+node src/index.js \
+or \
+npm start \
 
-or
-npm start
 then open a browser and go to localhost:8080/products/11111
 
 ### Example Calls
