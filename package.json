@@ -14,7 +14,7 @@
   "keywords": [
     "product"
   ],
-  "author": "{name}",
+  "author": "Mahitha",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

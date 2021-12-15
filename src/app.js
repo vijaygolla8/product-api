@@ -1,10 +1,9 @@
 const express = require('express');
-const app = express();
 const router = require('./router');
 
+const app = express();
 app.use(express.json())
-app.use('/products',router);
+app.use('/products', router);
 
-//app.get('/', (req, res) => res.send('Welcome') )
+//  app.get('/', (req, res) => res.send('Welcome') )
 module.exports = app;
-
