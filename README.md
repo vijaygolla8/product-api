@@ -2,8 +2,10 @@
 
 ## Overview
 
-Service to provide the single source of truth for:
-Product information
+Service to provide the single source of truth for: Product information
+Supports GET, POST, PUT operations,
+basic schema validations,
+using in-memory database.
 
 # Local Development
 
