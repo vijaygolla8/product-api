@@ -18,9 +18,9 @@ node src/index.js
 
 or
 npm start
-then open a browser and go to localhost:8080/products/11111\
+then open a browser and go to localhost:8080/products/11111
 
-###Example Calls
+### Example Calls
 curl http://localhost:8080/products \
     returns "{
     "stock_number": "11111",
@@ -50,7 +50,7 @@ curl -X PUT -H "Content-Type: application/json" \
     "Description": "RS Batteries",
     "Price": "£2.99"
 }" \
-with Status : 200 Ok \
+with Status : 200 Ok
 
 ### References
 https://www.youtube.com/watch?v=TlB_eWDSMt4&t=2s
